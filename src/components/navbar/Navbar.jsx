@@ -14,7 +14,7 @@ const Navbar = () => {
         <a href="">FAQ</a>
         <a href="">Contact us</a>
       </div>
-      <div className="download">
+      <div className="download_now">
         <button >Download Now</button>
       </div>
     </div>

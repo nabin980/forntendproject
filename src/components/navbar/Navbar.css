@@ -22,12 +22,12 @@
    text-align: center;
    color: rgba(8, 45, 74, 1);
 }
-.download{
+.download_now{
     display: flex;
     align-items: center;
     padding-right: 8rem;
 }
-.download button{
+.download_now button{
     border: none;
     border-radius: 8px;
     height: 50px;

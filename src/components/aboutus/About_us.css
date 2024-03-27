@@ -1,0 +1,28 @@
+hr{margin: 0.5rem;
+    width:1.5rem;
+    border: none;
+    border-top: 3px solid;
+    text-align:left;
+    margin-left:0;
+   color: rgba(255, 120, 90, 1);
+}
+.about_us,.pioneer{
+    color: rgba(255, 120, 90, 1);
+}
+.pioneer{
+    text-decoration: underline;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    margin-top: 8rem;
+}
+.female{
+    display: flex;
+    justify-content: center;
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 60px;
+    letter-spacing: 0.012em;
+    text-align: center;
+}
