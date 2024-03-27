@@ -1,9 +1,14 @@
 import React from 'react'
 import './App.css'
+import { Navbar,Animation} from './components'
 
 const App = () => {
   return (
-    <div>App</div>
+    <>
+    <Navbar />
+    <Animation />
+    </>
+    
   )
 }
 

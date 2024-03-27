@@ -1,0 +1,42 @@
+.nav_links{
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+}
+.nav_logo{
+    margin: 1rem;
+    padding-left: 7rem;
+}
+.nav_logo :hover{
+    cursor: pointer;
+}
+
+.nav_links_container a{
+    display: flex;
+    float: left;   
+    font-size: 17px;
+    font-weight: 550;
+    line-height: 24px;
+    margin:2rem;
+   text-decoration: none;
+   text-align: center;
+   color: rgba(8, 45, 74, 1);
+}
+.download{
+    display: flex;
+    align-items: center;
+    padding-right: 8rem;
+}
+.download button{
+    border: none;
+    border-radius: 8px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 500;
+    width: 168px;
+    color: white;
+    background-color: rgba(8, 45, 74, 1);
+}
+.download  :hover{
+    cursor: pointer;
+}

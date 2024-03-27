@@ -1,0 +1,46 @@
+.background{
+    margin-bottom: 4rem;
+}
+.background img {
+    position: relative;
+    width: 100%;
+    object-fit: cover;
+    height: 115vh;
+    z-index: -1;
+}
+.top {
+    position: relative;
+    padding-left: 8rem;
+    padding-top: 15rem;
+    width: 809px;
+    height: 180px;
+    font-size: 52px;
+    font-weight: 500;
+    line-height: 60px;
+    letter-spacing: 0.012em;
+    text-align: left;
+    color: rgb(255, 255, 255);   
+}
+.down{
+    
+}
+.numbers{
+    display: none;
+    width: 80%;
+  padding: 2rem;
+  border-radius: 10px;
+  color: white;
+  background: rgba(8, 45, 74, 1);
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0px 2px 12px 0px rgba(176, 184, 211, 0.5),
+    0px 2px 4px 0px rgba(172, 188, 245, 0.5);
+  position: relative;
+  z-index: 12;
+}
+
+.overlay{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.514);
+    width: 100%; 
+}
