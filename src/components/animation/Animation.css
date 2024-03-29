@@ -170,10 +170,10 @@
   }
 .numbers{
     display: grid;
-    width: 80%;
+    width: 83.3%;
     height:10vw;
   padding: 2rem;
-  transform: translate(9rem,-5rem);
+  transform: translate(8rem,-5rem);
   z-index: 13;
   position:absolute;
   border-radius: 10px;

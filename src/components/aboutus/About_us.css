@@ -26,3 +26,77 @@ hr{margin: 0.5rem;
     letter-spacing: 0.012em;
     text-align: center;
 }
+.image_section{
+    margin-top: 3rem;
+    margin-left: 10rem;
+    display: grid;
+    gap: 20px;
+    grid-template-columns:repeat(4,290px);
+    grid-template-rows: repeat(2,296px);
+    width: 83.3%;
+}
+
+.horizontal > div >img{
+    padding-bottom: 18px;
+}
+.image-item1{
+    grid-column: 1;
+    grid-row: 1;
+}
+.image-item3{
+    grid-column: 2;
+    grid-row: 1;
+}
+.image-item4{
+    grid-column: 3;
+    grid-row: 1;
+}
+.image-item2{
+    grid-column: 1 ;
+    grid-row: 2 / span 3;
+}
+.image-item5{
+    grid-column: 2;
+    grid-row: 2 
+}
+.ourstory{
+    margin-top: 3rem;
+    margin-left: 10rem;
+}
+
+.our_story{
+    font-weight: 500;
+    font-size: 42px;
+    display: flex;
+    
+    justify-content: center;
+}
+.story{
+    color: rgba(255, 120, 90, 1);
+    text-decoration: underline;
+}
+.storydiscription{
+    display: flex;
+    margin-top: 2rem;
+}
+.paragraph{
+    width: 54%;
+    padding-left: 1rem;
+    font-weight: 400px;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: left;
+}
+.getintouch{
+    background:rgba(8, 45, 74, 1);
+    color: white;
+    border-radius: 8px;
+    width: 134px;
+    height: 40px;
+    margin-top: 1rem;
+}
+.getintouch:hover{
+    cursor: pointer;
+}
+
+
