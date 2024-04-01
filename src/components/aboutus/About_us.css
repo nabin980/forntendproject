@@ -36,6 +36,8 @@ hr{margin: 0.5rem;
     width: 83.3%;
 }
 
+
+
 .horizontal > div >img{
     padding-bottom: 18px;
 }
@@ -71,7 +73,7 @@ hr{margin: 0.5rem;
     
     justify-content: center;
 }
-.story{
+.story,.cnex_color{
     color: rgba(255, 120, 90, 1);
     text-decoration: underline;
 }
@@ -97,6 +99,104 @@ hr{margin: 0.5rem;
 }
 .getintouch:hover{
     cursor: pointer;
+}
+.why_background{
+    margin-top: 6rem;
+    padding-bottom: 6rem;
+    background: rgba(8, 45, 74, 1);
+}
+.why_cnex{
+    margin-left: 10rem ;    
+}
+.whycnex{
+    padding-top: 10rem;
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 42px;
+    color: white;
+}
+.why_cnex_grid_container{
+    margin-top: 3rem;
+    display: grid;
+    width: 88.5%;
+    gap: 15px;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    grid-template-rows: repeat(1,285px); 
+}
+.why_item{
+    text-align: center;
+    border-radius: 8px;
+    padding: 1rem;
+    background: rgba(6, 34, 55, 1);
+}
+.why_icon{
+    padding-top: 2rem;
+}
+.fast{
+    padding-top: 1rem;
+    font-size: 22px;
+    font-weight: 400;
+    color: white;
+}
+.why_des{
+    font-size: 14px;
+    font-weight: 400;
+    padding: 1rem;
+    color: rgba(255, 255, 255, 1);
+}
+.headingS{
+    display: flex;
+    justify-content: center;
+    padding-top: 7rem;
+    padding-bottom: 2rem;
+}
+.feature_experience{
+    padding-bottom: 1rem;
+    color:white;
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 42px;
+}
+.discover{
+    color:  rgba(134, 136, 138, 1);
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 4rem;
+}
+.features{
+    margin-left: 10rem;
+}
+.grid_container_feature{
+    display: grid;
+    gap: 19px;
+    width: 88.5%;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+}
+.feature_item{
+    background: rgba(6, 34, 55, 1);
+    text-align: center;
+    padding: 2rem;
+    border-radius: 20px;
+}
+.legal{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 22px;
+    font-weight: 400;
+    color: white;
+}
+.feature_des{
+    color: rgba(195, 196, 197, 1);
+    font-weight: 400;
+    font-size: 14px;
+}
+.feature_icon{
+    padding-top: 1rem;
+    padding-bottom: 2rem;
 }
 
 
