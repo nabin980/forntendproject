@@ -33,35 +33,18 @@ const About_us = () => {
           <br /> for the Modern Woman
         </p>
       </div>
-      <div className="image_section">
-        <div className="image-item1">
-          <img src={image1} alt="" />
-        </div>
-        <div className="image-item3">
-          <img src={image3} alt="" />
-        </div>
-        <div className="image-item4">
-          <img src={image4} alt="" />
-        </div>
-        <div className="image-item2">
-          <img src={image2} alt="" />
-        </div>
-        <div className="image-item5">
-          <img src={image5} alt="" />
-        </div>
-        <div className="horizontal">
-          <div className="image-item6">
-            <img src={image6} alt="" />
-          </div>
-          <div className="image-item7">
-            <img src={image7} alt="" />
-          </div>
-          <div className="image-item8">
-            <img src={image8} alt="" />
-          </div>
-        </div>
+      <div class="grid_container">
+        <div class="item1"><img src={image2} alt=""/></div>
+        <div class="item2"><img src={image3} alt=""/></div>
+        <div class="item3"><img src={image4} alt=""/></div>
+        <div class="item4"><img src={image5} alt=""/></div>
+      <div class="horizontal">
+        <div class="item5"><img src={image6} alt=""/></div>
+        <div class="item6"><img src={image7} alt=""/></div>
+        <div class="item8"><img src={image8} alt=""/></div>
       </div>
-
+        <div class="item9"><img src={image1} alt=""/></div>
+    </div>
       <div className="ourstory">
         <p className="our_story">
           Our&nbsp;<span className="story">Story</span>
