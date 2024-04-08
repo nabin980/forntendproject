@@ -1,6 +1,5 @@
 import React from "react";
 import "./Animation.css";
-import background from "../../assets/banner.jpg";
 import image1 from "../../assets/b1.png";
 import image2 from "../../assets/b2.png";
 import image3 from "../../assets/b3.png";
