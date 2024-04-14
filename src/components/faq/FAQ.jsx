@@ -1,4 +1,4 @@
-// import { Swiper, SwiperSlide } from 'swiper/react';
+
 import React, { useState } from "react";
 import "./FAQ.css";
 import left from "../../assets/left_arrow.svg";
@@ -6,7 +6,8 @@ import right from "../../assets/right_arrow.svg";
 import image2 from "../../assets/rectangle 2.svg";
 import image1 from "../../assets/rectangle 1.svg";
 import image3 from "../../assets/Image.svg";
-// import 'swiper/css';
+import Accordion from "../../components/faq/Accodion";
+
 
 const FAQ = () => {
   const feedbackData = [
@@ -42,10 +43,8 @@ const FAQ = () => {
         "Another Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur justo vitae sapien",
       messageBottom: "JANE DOE, LOS ANGELES",
     },
-
-    // Add more feedback data as needed
   ];
-
+ 
   const [startIndex, setStartIndex] = useState(0);
 
   const handleLeftButtonClick = () => {
@@ -105,7 +104,7 @@ const FAQ = () => {
             </div>
           ))}
       </div>
-
+      <Accordion />
      
     </div>
   );
