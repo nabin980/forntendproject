@@ -32,6 +32,9 @@
     0px 2px 4px 0px rgba(172, 188, 245, 0.5);
     
 }
+.left_right button:hover{
+    cursor: pointer;
+}
 .hr_underline hr{
     width: 79%;
     margin-top: 1.1rem;
@@ -46,12 +49,23 @@
     margin: 3rem 10rem;
     display: flex;
     flex-direction: row;
+  
     
 }
 .feedback_card{
     height: 20rem;
     position: relative;
-    width: 50%;
+   
+}
+.feedback_slider {
+    cursor: grab;
+  }
+  
+  .feedback_slider:active {
+    cursor: grabbing;
+  }
+.react-multiple-carousel__arrow{
+    display: none;
 }
 .feedback_background{
     position: absolute;
@@ -92,6 +106,63 @@
     font-size: 12px;
     font-weight: 400;
 }
+.faq, .faq * {
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+  }
+.back_ground{
+    filter: brightness(30%);
+   width: 100%;
+   position: absolute;
+   z-index: -1;
+}
+.community_component{
+   
+    display: flex;
+    padding: 10rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+.community_component .customer_says{
+    color: white;
+}
+.community_paragraph{
+    display: flex;
+   
+    color: rgba(195, 196, 197, 1);
+    text-align: center;
+}
+.community_download{
+   
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 1rem;
+    /* padding: 1rem 0rem 0rem 7rem; */
+    img:hover{
+        cursor: pointer;
+    }
+    img{
+        height: 35%;
+        width: 35%;
+    }
+}
+.customer_says{
+    font-size: 42px;
+  font-weight: 500;
+}
+.join_community{
+    margin-bottom: 10rem;
+}
+  
+
+  
+
 
 
     

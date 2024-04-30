@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.css'
-import { Navbar,Animation,About_us,FAQ} from './components'
+import { Navbar,Animation,About_us,FAQ, Contact_us} from './components'
 
 const App = () => {
   return (
@@ -9,6 +9,7 @@ const App = () => {
     <Animation />
     <About_us />
     <FAQ/>
+    <Contact_us />
     </>
     
   )
