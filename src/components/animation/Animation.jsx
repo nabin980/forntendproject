@@ -31,7 +31,25 @@ const Animation = () => {
               <img src={image4} alt="" className="bimg" />
             </div>
           </div>
+          <div class="mobile">
+              <span className="experience">
+                Experience
+              </span>{" "}
+              the Future of
+              <br />
+              Female Commerce
+              <br />
+              with
+              <span className="experience">
+                Cnex
+              </span>
+              <p>
+                Order, Preorder, and Book - Your Ultimate Destination for Female
+                Products and Services
+              </p>
+            </div>
           <div class="text-wrapper">
+          
             <div class="top t1">
               <span className="experience">
                 Experience

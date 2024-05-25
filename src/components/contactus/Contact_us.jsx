@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import "./Contact_us.css";
-
+import image1 from '../../assets/arrow-right.svg'
 
 const Contact_us = () => {
   const [formData, setFormData] = useState({
@@ -80,24 +80,24 @@ const Contact_us = () => {
           <div className="left">
             <label htmlFor="name">
               Name
-              <input type="text" name="name" id="name" value={formData.name} onChange={handleChange} />
+              <input type="text" placeholder='Jitendra' name="name" id="name" value={formData.name} onChange={handleChange} />
               {errors.name && <span className="error">{errors.name}</span>}
             </label>
             <label htmlFor="phoneNumber">
               Phone number
-              <input type="text" name="phoneNumber" id="phoneNumber" value={formData.phoneNumber} onChange={handleChange} />
+              <input type="text" placeholder='+977-98********' name="phoneNumber" id="phoneNumber" value={formData.phoneNumber} onChange={handleChange} />
               {errors.phoneNumber && <span className="error">{errors.phoneNumber}</span>}
             </label>
           </div>
           <div className="right">
             <label htmlFor="email">
               Email
-              <input type="email" name="email" id="email" value={formData.email} onChange={handleChange} />
+              <input type="email" placeholder='email@sample.com' name="email" id="email" value={formData.email} onChange={handleChange} />
               {errors.email && <span className="error">{errors.email}</span>}
             </label>
             <label htmlFor="subject">
               Subject
-              <input type="text" name="subject" id="subject" value={formData.subject} onChange={handleChange} />
+              <input type="text" placeholder='service name' name="subject" id="subject" value={formData.subject} onChange={handleChange} />
               {errors.subject && <span className="error">{errors.subject}</span>}
             </label>
           </div>
@@ -105,11 +105,13 @@ const Contact_us = () => {
         <div className="bottom">
           <label htmlFor="message">
             Message
-            <input type='text' name="message" id="message" value={formData.message} onChange={handleChange}></input>
+            <input type='text' placeholder='Kindly explain your needed service you are interested in...' name="message" id="message" value={formData.message} onChange={handleChange}></input>
             {errors.message && <span className="error">{errors.message}</span>}
           </label>
         </div>
-        <input type="submit" value="Get in Touch ->" className="connect_submit" />
+        <button type="submit"  image1 className="connect_submit" >
+          Get in Touch <img src={image1} alt="" />
+        </button>
       </form>
     </div>
   );

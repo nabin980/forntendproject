@@ -35,14 +35,15 @@
         label{
             display: flex;
             flex-direction: column;
-            gap: 20px;
+            gap: 40px;
             
             input{
                 font-size: 14px;
                 font-weight: 400;
                 outline: none;
+               
                 border: none;
-                border-bottom: 1px solid rgba(179, 179, 179, 1);
+                border-bottom: 1px solid rgba(179, 179, 179, 0.5);
             }
         }
     }
@@ -66,4 +67,12 @@
     border-radius: 8px;
     background-color: rgba(8, 45, 74, 1);
     color: white;
+    display: flex;
+   gap: 0.5rem;
+   align-items: center;
+    justify-content: center;
+
+    :hover{
+        cursor: pointer;
+    }
 }
