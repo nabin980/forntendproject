@@ -110,4 +110,11 @@
   .content.show{
     max-height: 9999px;
   }
- 
+ @media screen and (max-width:451px) {
+  .accordion {
+    margin: 3rem 1rem;
+  }
+  .faq_heading {
+    font-size: 26px;
+  }
+ }

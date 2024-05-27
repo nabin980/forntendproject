@@ -1,13 +1,5 @@
 import React from "react";
 import "./About_us.css";
-import image1 from "../../assets/Image.png";
-import image2 from "../../assets/Image1.png";
-import image3 from "../../assets/Image2.png";
-import image4 from "../../assets/Image3.png";
-import image5 from "../../assets/Image4.png";
-import image6 from "../../assets/Image5.png";
-import image7 from "../../assets/Image6.png";
-import image8 from "../../assets/Image7.png";
 import image9 from "../../assets/Leftside.png";
 import image10 from "../../assets/fast.png";
 import image11 from "../../assets/easy.png";
@@ -19,6 +11,9 @@ import image16 from "../../assets/search.png";
 import image17 from "../../assets/filter.png";
 import image18 from "../../assets/delivery.png";
 import image19 from "../../assets/payment.png";
+import gridImage from "../../assets/grid_image.png";
+import responsiveImage from "../../assets/grid_image_responsive.png";
+
 
 const About_us = () => {
   return (
@@ -33,21 +28,17 @@ const About_us = () => {
           <br /> for the Modern Woman
         </p>
       </div>
-      <div class="grid_container_aboutus">
-        
-        <img src={image1} alt=""/>
-        <img src={image3} alt=""/>
-        <img src={image4} alt=""/>
-       
- 
-      <img src={image6} alt=""/>
-       <img src={image7} alt=""/>
-       <img src={image8} alt=""/>
-     
-     <img src={image2} alt=""/>
-      <img src={image5} alt=""/>
-       
-    </div>
+      <div class="grid_container">
+        <div>
+          <img src={gridImage} alt="" />
+        </div>
+      </div>
+
+      <div class="grid_container_responsive">
+        <div>
+          <img src={responsiveImage} alt="" />
+        </div>
+      </div>
       <div className="ourstory">
         <p className="our_story">
           Our&nbsp;<span className="story">Story</span>
@@ -63,7 +54,8 @@ const About_us = () => {
               that their clients' needs were met. .
             </p>
             <br />
-            <br />
+           
+            <div className="do_not_show">
             <p>
               Their hard work paid off, and soon their business began to grow.
               They hired additional staff members and expanded their service
@@ -86,6 +78,7 @@ const About_us = () => {
               evolve their business, and to help even more clients achieve their
               real estate goals.
             </p>
+            </div>
             <button className="getintouch">Get in touch</button>
           </div>
         </div>
