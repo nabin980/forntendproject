@@ -45,6 +45,10 @@
     color: rgba(8, 45, 74, 1);
     width: 2.8em;
   }
+
+  .small_download{
+    display: flex;
+  }
 @media screen and (max-width: 451px) {
   .nav_logo {
     padding-left: 0rem;
@@ -52,9 +56,10 @@
   .menu_icons {
     display: flex;
     justify-content: center;
-    padding-top: 1.5rem;
+    
     padding-right: 1rem;
     cursor: pointer;
+    align-items: center;
   }
   .nav_links_container {
     display: flex;
@@ -93,8 +98,8 @@
     padding-right: 0;
     button {
       font-size: 14px;
-      height: 5vh;
-      width: 35vw;
+      height: 4vh;
+      width: 30vw;
     }
   }
   .nav_links_container {

@@ -76,3 +76,8 @@
         cursor: pointer;
     }
 }
+
+@media screen and (max-width: 451px) {
+    .contact_us {
+      display: none;}
+  }

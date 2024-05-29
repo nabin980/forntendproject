@@ -1,11 +1,10 @@
 import React, { useState } from "react";
-import './Navbar.css'
-import logo from '../../assets/logo.png'
+import "./Navbar.css";
+import logo from "../../assets/logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faTimesCircle } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
-
   const [isMenuClicked, setIsMenuClicked] = useState(false);
 
   const toggleMenu = () => {
@@ -25,14 +24,16 @@ const Navbar = () => {
         <a href="">FAQ</a>
         <a href="">Contact us</a>
       </div>
-      <div className="download_now">
-        <button >Download Now</button>
+      <div className="small_download">
+        <div className="download_now">
+          <button>Download Now</button>
+        </div>
+        <div className="menu_icons" onClick={toggleMenu}>
+          <FontAwesomeIcon icon={isMenuClicked ? faTimesCircle : faBars} />
+        </div>
       </div>
-      <div className="menu_icons" onClick={toggleMenu}>
-            <FontAwesomeIcon icon={isMenuClicked ? faTimesCircle : faBars} />
-          </div>
     </div>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;

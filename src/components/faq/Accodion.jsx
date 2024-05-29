@@ -49,6 +49,9 @@ const Accordion = ({ items }) => {
         <p className="faq_heading">
           <span className="experience"> Frequently</span> Asked Questions
         </p>
+        <p className="small_paragraph ">
+        Discover a World of Female-Centric Products and Services
+        </p>
         <p className="faq_paragraph">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
           vulputate libero et velit interdum, ac aliquet odio mattis.
