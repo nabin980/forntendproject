@@ -32,36 +32,22 @@ const Animation = () => {
             </div>
           </div>
           <div class="mobile">
-              <span className="experience">
-                Experience
-              </span>{" "}
-              the Future of
-              <br />
-              Female Commerce
-              <br />
-              with
-              <span className="experience">
-                Cnex
-              </span>
-              <p>
-                Order, Preorder, and Book - Your Ultimate Destination for Female
-                Products and Services
-              </p>
-            </div>
+            <span className="experience">Experience</span> the Future of Female
+            Commerce with&nbsp;
+            <span className="experience">Cnex</span>
+            <p>
+              Order, Preorder, and Book - Your Ultimate Destination for Female
+              Products and Services
+            </p>
+          </div>
           <div class="text-wrapper">
-          
             <div class="top t1">
-              <span className="experience">
-                Experience
-              </span>{" "}
-              the Future of
+              <span className="experience">Experience</span> the Future of
               <br />
               Female Commerce
               <br />
               with
-              <span className="experience">
-                Cnex
-              </span>
+              <span className="experience">Cnex</span>
               <p>
                 Order, Preorder, and Book - Your Ultimate Destination for Female
                 Products and Services
@@ -76,19 +62,14 @@ const Animation = () => {
             </div>
 
             <div class="top t3">
-              Radiate{" "}
-              <span className="experience">
-                Confidience,
-              </span>
+              Radiate <span className="experience">Confidience,</span>
               <br />
               Radiate Style
               <p>Look and feel best in every moment with chic fashion pieces</p>
             </div>
 
             <div class="top t4">
-              <span className="experience">
-                Fashion,
-              </span>
+              <span className="experience">Fashion,</span>
               <span className="experience"> redefined.</span>
               <p>
                 Order, Preorder, and Book - Your Ultimate Destination for Female
@@ -97,9 +78,9 @@ const Animation = () => {
             </div>
           </div>
           <div class="image">
-        <img src={appstore} alt="" className="images"/>
-        <img src={googleplay} alt="" className="images"/>
-      </div>
+            <img src={appstore} alt="" className="images" />
+            <img src={googleplay} alt="" className="images" />
+          </div>
         </div>
       </div>
       <div className="numbers">

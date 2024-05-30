@@ -121,6 +121,57 @@
   text-align: center;
   margin-bottom: 1rem;
 }
+
+@media screen and (max-width: 768px){
+  .accordion {
+    margin: 3rem 1rem;
+  }
+  .faq_heading {
+    font-size: 24px;
+  }
+  .faq_grid {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .small_paragraph {
+    display: block;
+    text-align: center;
+    padding: 0rem 1rem;
+  }
+  .faq_paragraph {
+    display: none;
+  }
+  .faq_image {
+    img {
+      width: 100%;
+    }
+  }
+  .svg-inline--fa {
+    height: 22px;
+  }
+  .community_paragraph {
+    display: none;
+  }
+  .back_ground {
+    width: 99%;
+  }
+  .customer_says {
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .community_component {
+   
+    padding: 1rem 0rem 0rem 0rem;
+  }
+  .join_community {
+    margin-bottom: 0rem;
+  }
+  .title {
+    font-size: 14px;
+    font-weight: 600;
+  }
+}
+
 @media screen and (max-width: 451px) {
   .accordion {
     margin: 3rem 1rem;

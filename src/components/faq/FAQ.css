@@ -154,6 +154,153 @@
   margin-bottom: 10rem;
 }
 
+@media screen and (max-width: 768px) {
+  .customer_say {
+    font-size: 32px;
+    font-weight: 500;
+    margin-left: 0rem;
+  }
+  .what_our {
+    margin: 0rem 1rem;
+  }
+  .feedback_slider {
+    margin: 3rem 1rem;
+  }
+  .feedback_card,
+  .feedback_background {
+    height: 13vh;
+  }
+  .hr_underline hr {
+    width: 95%;
+    margin-left: 1rem;
+  }
+  .faq {
+    margin-top: 3rem;
+  }
+  .accordion {
+    margin: 3rem 1rem;
+  }
+  .faq_top {
+    padding: 1rem;
+  }
+  .faq_heading {
+    font-size: 26px;
+  }
+  .feedback_message {
+    transform: translate(60%, 15%);
+    padding: 0.9rem;
+    width: 60%;
+    img {
+      height: 2vh;
+    }
+    .message_top {
+      font-size: 11px;
+      line-height: 15px;
+    }
+    .message_middle {
+      font-size: 8px;
+      padding-top: 0.3rem;
+      line-height: 10px;
+    }
+    .messager_name {
+      font-size: 9px;
+    }
+    hr {
+      width: 1rem;
+    }
+  }
+ 
+}
+
+@media (min-width: 600px) and (max-width: 700px) {
+  .customer_say {
+    font-size: 30px;
+  }
+  .feedback_message {
+    padding: 2rem;
+    hr {
+      width: 1.5rem;
+    }
+  }
+  .feedback_card,
+  .feedback_background {
+    height: 20vh;
+  }
+  .feedback_message {
+    & img {
+      height: 4vh;
+    }
+  }
+  .feedback_message {
+    & .message_top {
+      font-size: 16px;
+      line-height: 17px;
+    }
+  }
+  .feedback_message {
+    & .message_middle {
+      font-size: 11px;
+      padding-top: 0.5rem;
+      line-height: 14px;
+    }
+  }
+  .feedback_message {
+    & .messager_name {
+      font-size: 12px;
+    }
+  }
+  .feedback_message {
+    transform: translate(64%, 35%);
+  }
+}
+
+@media (min-width: 530px) and (max-width: 600px) {
+  .customer_say {
+    font-size: 28px;
+  }
+  .feedback_card,
+  .feedback_background {
+    height: 18vh;
+  }
+  .feedback_message {
+    & img {
+      height: 3vh;
+    }
+  }
+  .feedback_message {
+    & .message_top {
+      font-size: 13px;
+      line-height: 15px;
+    }
+  }
+  .feedback_message {
+    & .message_middle {
+      font-size: 10px;
+      padding-top: 0.3rem;
+      line-height: 12px;
+    }
+  }
+  .feedback_message {
+    & .messager_name {
+      font-size: 11px;
+    }
+  }
+  .feedback_message {
+    transform: translate(64%, 35%);
+  }
+}
+
+@media (min-width: 451px) and (max-width: 530px) {
+  .customer_say {
+    font-size: 26px;
+    font-weight: 500;
+    margin-left: 0rem;
+  }
+  .feedback_message {
+    transform: translate(64%, 35%);
+  }
+}
+
 @media screen and (max-width: 451px) {
   .customer_say {
     font-size: 24px;
@@ -168,7 +315,7 @@
   }
   .feedback_card,
   .feedback_background {
-    height: 25vh;
+    height: 16vh;
   }
   .hr_underline hr {
     width: 92%;
@@ -191,7 +338,7 @@
     padding: 1rem;
     width: 60%;
     img {
-      height: 4vh;
+      height: 2.5vh;
     }
     .message_top {
       font-size: 11px;
@@ -209,5 +356,4 @@
       width: 1rem;
     }
   }
-  
 }
