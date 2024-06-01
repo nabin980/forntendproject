@@ -122,12 +122,584 @@
   margin-bottom: 1rem;
 }
 
-@media screen and (max-width: 768px){
+@media (min-width: 1800px) and (max-width: 2000px) {
+  .content {
+    max-height: 0;
+    padding: 0 1rem;
+    color: rgba(134, 136, 138, 1);
+    font-size: 22px;
+  }
+  .svg-inline--fa {
+    height: 30px;
+  }
+  .small_paragraph{
+    display: none;
+  }
+
+  .faq_top {
+    hr {
+      width: 1.8rem;
+      border-top: 3.5px solid;
+      margin-top: 0.8rem;
+    }
+    .acco__txt {
+      font-size: 24px;
+      font-weight: 600;
+    }
+  }
+  .faq_heading {
+    font-size: 46px;
+  }
+  .left_faq {
+    grid-column: span 1 / auto;
+  }
+  .faq_paragraph {
+    display: block;
+    width: 70%;
+    font-size: 22px;
+    margin-bottom: 1rem;
+  }
+  .title {
+    font-size: 24px;
+    font-weight: 600;
+    padding: 2rem;
+  }
+  .faq_grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+  }
+  .accordion {
+    margin: 3rem 10rem;
+  }
+  
+  .community_download {
+    width: 45vw;
+    & img {
+      height: 55%;
+      width: 55%;
+    }
+  }
+  .community_paragraph {
+    font-size: 24px;
+  }
+ 
+
+  .faq_image {
+    img {
+      width: 100%;
+    }
+  }
+ 
+
+  .community_component {
+    .customer_says {
+      font-size: 96px;
+      font-weight: 600;
+    }
+  }
+
+  .community_component {
+    padding: 6rem 0rem 0rem 0rem;
+  }
+  .join_community {
+    margin-bottom: 12rem;
+  }
+ 
+}
+
+@media (min-width: 1600px) and (max-width: 1800px) {
+  .content {
+    max-height: 0;
+    padding: 0 1rem;
+    color: rgba(134, 136, 138, 1);
+    font-size: 20px;
+  }
+  .svg-inline--fa {
+    height: 28px;
+  }
+  .small_paragraph{
+    display: none;
+  }
+
+  .faq_top {
+    hr {
+      width: 1.8rem;
+      border-top: 3.5px solid;
+      margin-top: 0.8rem;
+    }
+    .acco__txt {
+      font-size: 22px;
+      font-weight: 600;
+    }
+  }
+  .faq_heading {
+    font-size: 44px;
+  }
+  .left_faq {
+    grid-column: span 1 / auto;
+  }
+  .faq_paragraph {
+    display: block;
+    width: 70%;
+    font-size: 20px;
+    margin-bottom: 1rem;
+  }
+  .title {
+    font-size: 22px;
+    font-weight: 600;
+  }
+  .faq_grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(550px, 1fr));
+  }
+  .accordion {
+    margin: 3rem 7rem;
+  }
+  .community_download {
+    width: 45vw;
+    & img {
+      height: 55%;
+      width: 55%;
+    }
+  }
+  .community_paragraph {
+    font-size: 24px;
+  }
+ 
+ 
+  
+  .faq_image {
+    img {
+      width: 100%;
+    }
+  }
+  
+
+  .community_component {
+    .customer_says {
+      font-size: 80px;
+      font-weight: 600;
+    }
+  }
+
+  .community_component {
+    padding: 6rem 0rem 0rem 0rem;
+  }
+  .join_community {
+    margin-bottom: 12rem;
+  }
+
+}
+
+@media (min-width: 1400px) and (max-width: 1600px) {
+  .content {
+    max-height: 0;
+    padding: 0 1rem;
+    color: rgba(134, 136, 138, 1);
+    font-size: 20px;
+  }
+  .svg-inline--fa {
+    height: 28px;
+  }
+  .small_paragraph{
+    display: none;
+  }
+
+  .faq_top {
+    hr {
+      width: 1.8rem;
+      border-top: 3.5px solid;
+      margin-top: 0.8rem;
+    }
+    .acco__txt {
+      font-size: 22px;
+      font-weight: 600;
+    }
+  }
+  .faq_heading {
+    font-size: 44px;
+  }
+  .left_faq {
+    grid-column: span 1 / auto;
+  }
+  .faq_paragraph {
+    display: block;
+    width: 70%;
+    font-size: 20px;
+    margin-bottom: 1rem;
+  }
+  .title {
+    font-size: 22px;
+    font-weight: 600;
+  }
+  .faq_grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  }
+  .back_ground {
+    width: 99.7%;
+  }
+  .accordion {
+    margin: 3rem 4rem;
+  }
+  .community_download {
+    width: 45vw;
+    & img {
+      height: 55%;
+      width: 55%;
+    }
+  }
+  .community_paragraph {
+    font-size: 18px;
+  }
+ 
+ 
+  .faq_image {
+    img {
+      width: 100%;
+    }
+  }
+
+
+  .community_component {
+    .customer_says {
+      font-size: 50px;
+      font-weight: 600;
+    }
+  }
+
+  .community_component {
+    padding: 6rem 0rem 0rem 0rem;
+  }
+  .join_community {
+    margin-bottom: 4rem;
+  }
+  
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .content {
+    max-height: 0;
+    padding: 0 1rem;
+    color: rgba(134, 136, 138, 1);
+    font-size: 17px;
+  }
+  .svg-inline--fa {
+    height: 26px;
+  }
+
+  .faq_top {
+    hr {
+      width: 1.8rem;
+      border-top: 3.5px solid;
+      margin-top: 0.7rem;
+    }
+    .acco__txt {
+      font-size: 20px;
+      font-weight: 600;
+    }
+  }
+  .faq_heading {
+    font-size: 40px;
+  }
+  .left_faq {
+    grid-column: span 1 / auto;
+  }
+  .faq_paragraph {
+    display: block;
+    width: 70%;
+    font-size: 18px;
+    margin-bottom: 1rem;
+  }
+  .title {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .faq_grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+  }
+  .back_ground {
+    width: 99.7%;
+  }
+  .accordion {
+    margin: 3rem 1rem;
+  }
+  .community_download {
+    width: 45vw;
+    & img {
+      height: 55%;
+      width: 55%;
+    }
+  }
+  .community_paragraph {
+    font-size: 18px;
+  }
+
+  .faq_image {
+    img {
+      width: 100%;
+    }
+  }
+
+  .community_component {
+    .customer_says {
+      font-size: 50px;
+      font-weight: 600;
+    }
+  }
+
+  .community_component {
+    padding: 6rem 0rem 0rem 0rem;
+  }
+  .join_community {
+    margin-bottom: 0rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .svg-inline--fa {
+    height: 24px;
+  }
+
+  .faq_top {
+    hr {
+      width: 1.8rem;
+      border-top: 3.5px solid;
+    }
+    .acco__txt {
+      font-size: 18px;
+      font-weight: 600;
+    }
+  }
+  .faq_heading {
+    font-size: 38px;
+  }
+  .left_faq {
+    grid-column: span 1 / auto;
+  }
+  .faq_paragraph {
+    display: block;
+    width: 70%;
+    font-size: 16px;
+    margin-bottom: 1rem;
+  }
+  .title {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .faq_grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  }
+  .back_ground {
+    width: 99%;
+  }
+  .accordion {
+    margin: 3rem 1rem;
+  }
+  .community_download {
+    & img {
+      height: 47%;
+      width: 47%;
+    }
+  }
+
+  .faq_image {
+    img {
+      width: 100%;
+    }
+  }
+
+  .community_component {
+    .customer_says {
+      font-size: 46px;
+      font-weight: 600;
+    }
+  }
+
+  .community_component {
+    padding: 4rem 0rem 0rem 0rem;
+  }
+  .join_community {
+    margin-bottom: 0rem;
+  }
+
+  .content {
+    max-height: 0;
+    padding: 0 1rem;
+    color: rgba(134, 136, 138, 1);
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .faq_top {
+    hr {
+      width: 1.8rem;
+      border-top: 3.5px solid;
+    }
+    .acco__txt {
+      font-size: 18px;
+      font-weight: 600;
+    }
+  }
+  .faq_heading {
+    font-size: 36px;
+  }
+  .left_faq {
+    grid-column: span 1 / auto;
+  }
+  .faq_paragraph {
+    display: block;
+    width: 80%;
+    margin-bottom: 1rem;
+  }
+  .title {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .faq_grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+  .back_ground {
+    width: 99.7%;
+  }
+  .accordion {
+    margin: 3rem 1rem;
+  }
+  .community_download {
+    & img {
+      height: 45%;
+      width: 45%;
+    }
+  }
+
+  .small_paragraph {
+    display: block;
+    text-align: center;
+    padding: 0rem 1rem;
+  }
+
+  .small_paragraph {
+    display: none;
+  }
+  .faq_image {
+    img {
+      width: 100%;
+    }
+  }
+  .svg-inline--fa {
+    height: 22px;
+  }
+
+  .community_component {
+    .customer_says {
+      font-size: 39px;
+      font-weight: 600;
+    }
+  }
+
+  .community_component {
+    padding: 3.5rem 0rem 0rem 0rem;
+  }
+  .join_community {
+    margin-bottom: 0rem;
+  }
+  .content {
+    max-height: 0;
+    padding: 0 1rem;
+    color: rgba(134, 136, 138, 1);
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 900px) {
+  .back_ground {
+    width: 99.7%;
+  }
+  .accordion {
+    margin: 3rem 1rem;
+  }
+  .community_download {
+    & img {
+      height: 45%;
+      width: 45%;
+    }
+  }
+  .faq_heading {
+    font-size: 32px;
+  }
+  .faq_grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+  .item {
+    margin-bottom: 0rem;
+  }
+  .small_paragraph {
+    display: block;
+    text-align: center;
+    padding: 0rem 1rem;
+  }
+  .left_faq {
+    grid-column: span 1 / auto;
+  }
+  .faq_paragraph {
+    display: block;
+    width: 80%;
+    margin-bottom: 1rem;
+  }
+  .small_paragraph {
+    display: none;
+  }
+  .faq_image {
+    img {
+      width: 100%;
+    }
+  }
+  .svg-inline--fa {
+    height: 22px;
+  }
+
+  .community_component {
+    .customer_says {
+      font-size: 39px;
+      font-weight: 600;
+    }
+  }
+
+  .community_component {
+    padding: 2rem 0rem 0rem 0rem;
+  }
+  .join_community {
+    margin-bottom: 0rem;
+  }
+  .title {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .content {
+    max-height: 0;
+    padding: 0 1rem;
+    color: rgba(134, 136, 138, 1);
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .community_download {
+    & img {
+      height: 41%;
+      width: 36%;
+    }
+  }
   .accordion {
     margin: 3rem 1rem;
   }
   .faq_heading {
-    font-size: 24px;
+    font-size: 32px;
   }
   .faq_grid {
     display: flex;
@@ -147,77 +719,118 @@
     }
   }
   .svg-inline--fa {
-    height: 22px;
+    height: 24px;
   }
   .community_paragraph {
     display: none;
   }
   .back_ground {
-    width: 99%;
-  }
-  .customer_says {
-    font-size: 24px;
-    font-weight: 600;
+    width: 99.7%;
   }
   .community_component {
-   
-    padding: 1rem 0rem 0rem 0rem;
+    .customer_says {
+      font-size: 30px;
+      font-weight: 600;
+    }
+  }
+
+  .community_component {
+    padding: 2.5rem 0rem 0rem 0rem;
   }
   .join_community {
     margin-bottom: 0rem;
   }
   .title {
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 600;
+  }
+  .content {
+    max-height: 0;
+    padding: 0 1rem;
+    color: rgba(134, 136, 138, 1);
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 451px) and (max-width: 600px) {
+  .community_component {
+    padding: 1rem 0rem 0rem 0rem;
+  }
+  .content {
+    max-height: 0;
+    padding: 0 1rem;
+    color: rgba(134, 136, 138, 1);
+    font-size: 14px;
+  }
+  .title {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .svg-inline--fa {
+    height: 22px;
   }
 }
 
 @media screen and (max-width: 451px) {
-  .accordion {
-    margin: 3rem 1rem;
-  }
-  .faq_heading {
-    font-size: 24px;
-  }
-  .faq_grid {
-    display: flex;
-    flex-direction: column-reverse;
-  }
-  .small_paragraph {
-    display: block;
-    text-align: center;
-    padding: 0rem 1rem;
-  }
-  .faq_paragraph {
-    display: none;
-  }
-  .faq_image {
-    img {
-      width: 100%;
+  .community_component {
+    & .customer_says {
+      font-size: 25px;
+    }
+
+    .community_download {
+      & img {
+        height: 30%;
+        width: 30%;
+      }
+    }
+    .accordion {
+      margin: 3rem 1rem;
+    }
+    .faq_heading {
+      font-size: 24px;
+    }
+    .faq_grid {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    .small_paragraph {
+      display: block;
+      text-align: center;
+      padding: 0rem 1rem;
+    }
+    .faq_paragraph {
+      display: none;
+    }
+    .faq_image {
+      img {
+        width: 100%;
+      }
+    }
+    .svg-inline--fa {
+      height: 22px;
+    }
+    .community_paragraph {
+      display: none;
+    }
+    .back_ground {
+      width: 99.7%;
+    }
+    .customer_says {
+      font-size: 24px;
+      font-weight: 600;
+    }
+    .community_component {
+      padding: 1rem 0rem 0rem 0rem;
+    }
+    .join_community {
+      margin-bottom: 0rem;
+    }
+    .title {
+      font-size: 14px;
+      font-weight: 600;
     }
   }
-  .svg-inline--fa {
-    height: 22px;
-  }
-  .community_paragraph {
-    display: none;
-  }
-  .back_ground {
-    width: 99%;
-  }
-  .customer_says {
-    font-size: 24px;
-    font-weight: 600;
-  }
   .community_component {
-   
     padding: 1rem 0rem 0rem 0rem;
-  }
-  .join_community {
-    margin-bottom: 0rem;
-  }
-  .title {
-    font-size: 14px;
-    font-weight: 600;
   }
 }

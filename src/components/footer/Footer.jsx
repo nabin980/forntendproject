@@ -12,8 +12,9 @@ import image7 from "../../assets/whitelogo.svg"
 const Footer = () => {
   return (
     <div className='footer'>
+      <img src={image7} alt="" className="footer-logo" />
       <div className="footer-grid">
-        <img src={image7} alt="" className="footer-logo" />
+        
         <div className="footer-mid1">
           <p className="footer-heading">
             Contact us
