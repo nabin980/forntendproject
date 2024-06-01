@@ -154,6 +154,412 @@
   margin-bottom: 10rem;
 }
 
+@media screen and (max-width: 2000px) {
+  .customer_say {
+    font-size: 40px;
+    font-weight: 600;
+    margin-left: 0rem;
+  }
+  .what_our {
+    margin: 0rem 8rem;
+  }
+  .feedback_slider {
+    margin: 3rem 8rem;
+  }
+  .feedback_card,
+  .feedback_background {
+    height: 30vh;
+  }
+  .hr_underline hr {
+    width: 97%;
+    margin-left: 1rem;
+  }
+  .faq {
+    margin-top: 3rem;
+  }
+  .accordion {
+    margin: 3rem 1rem;
+  }
+  .faq_top {
+    padding: 1rem;
+  }
+  .faq_heading {
+    font-size: 26px;
+  }
+  .feedback_message {
+    transform: translate(53%, 37%);
+    padding: 2.5rem;
+    width: 63%;
+    img {
+      height: 5vh;
+    }
+    .message_top {
+      font-size: 22px;
+      line-height: 22px;
+    }
+    .message_middle {
+      font-size: 18px;
+      padding-top: 0.3rem;
+      line-height: 24px;
+    }
+    .messager_name {
+      font-size: 18px;
+    }
+    hr {
+      width: 1.4rem;
+    }
+  }
+ 
+}
+
+@media screen and (max-width: 1800px) {
+  .customer_say {
+    font-size: 38px;
+    font-weight: 500;
+    margin-left: 0rem;
+  }
+  .what_our {
+    margin: 0rem 7rem;
+  }
+  .feedback_slider {
+    margin: 3rem 7rem;
+  }
+  .feedback_card,
+  .feedback_background {
+    height: 28vh;
+  }
+  .hr_underline hr {
+    width: 97%;
+    margin-left: 1rem;
+  }
+  .faq {
+    margin-top: 3rem;
+  }
+  .accordion {
+    margin: 3rem 1rem;
+  }
+  .faq_top {
+    padding: 1rem;
+  }
+  .faq_heading {
+    font-size: 26px;
+  }
+  .feedback_message {
+    transform: translate(55%, 38%);
+    padding: 2rem;
+    width: 63%;
+    img {
+      height: 3.8vh;
+    }
+    .message_top {
+      font-size: 20px;
+      line-height: 20px;
+    }
+    .message_middle {
+      font-size: 16px;
+      padding-top: 0.3rem;
+      line-height: 20px;
+    }
+    .messager_name {
+      font-size: 16px;
+    }
+    hr {
+      width: 1.4rem;
+    }
+  }
+ 
+}
+
+@media screen and (max-width: 1600px) {
+  .customer_say {
+    font-size: 36px;
+    font-weight: 500;
+    margin-left: 0rem;
+  }
+  .what_our {
+    margin: 0rem 5rem;
+  }
+  .feedback_slider {
+    margin: 3rem 5rem;
+  }
+  .feedback_card,
+  .feedback_background {
+    height: 25vh;
+  }
+  .hr_underline hr {
+    width: 97%;
+    margin-left: 1rem;
+  }
+  .faq {
+    margin-top: 3rem;
+  }
+  .accordion {
+    margin: 3rem 1rem;
+  }
+  .faq_top {
+    padding: 1rem;
+  }
+  .faq_heading {
+    font-size: 26px;
+  }
+  .feedback_message {
+    transform: translate(52%, 36%);
+    padding: 2rem;
+    width: 63%;
+    img {
+      height: 3.5vh;
+    }
+    .message_top {
+      font-size: 18px;
+      line-height: 18px;
+    }
+    .message_middle {
+      font-size: 14px;
+      padding-top: 0.3rem;
+      line-height: 16px;
+    }
+    .messager_name {
+      font-size: 14px;
+    }
+    hr {
+      width: 1rem;
+    }
+  }
+ 
+}
+
+@media screen and (max-width: 1400px) {
+  .customer_say {
+    font-size: 32px;
+    font-weight: 500;
+    margin-left: 0rem;
+  }
+  .what_our {
+    margin: 0rem 4rem;
+  }
+  .feedback_slider {
+    margin: 3rem 4rem;
+  }
+  .feedback_card,
+  .feedback_background {
+    height: 20vh;
+  }
+  .hr_underline hr {
+    width: 97%;
+    margin-left: 1rem;
+  }
+  .faq {
+    margin-top: 3rem;
+  }
+  .accordion {
+    margin: 3rem 1rem;
+  }
+  .faq_top {
+    padding: 1rem;
+  }
+  .faq_heading {
+    font-size: 26px;
+  }
+  .feedback_message {
+    transform: translate(52%, 30%);
+    padding: 2rem;
+    width: 63%;
+    img {
+      height: 3.5vh;
+    }
+    .message_top {
+      font-size: 14px;
+      line-height: 15px;
+    }
+    .message_middle {
+      font-size: 11px;
+      padding-top: 0.3rem;
+      line-height: 14px;
+    }
+    .messager_name {
+      font-size: 11px;
+    }
+    hr {
+      width: 1rem;
+    }
+  }
+ 
+}
+
+@media screen and (max-width: 1200px) {
+  .customer_say {
+    font-size: 32px;
+    font-weight: 500;
+    margin-left: 0rem;
+  }
+  .what_our {
+    margin: 0rem 1rem;
+  }
+  .feedback_slider {
+    margin: 3rem 1rem;
+  }
+  .feedback_card,
+  .feedback_background {
+    height: 19vh;
+  }
+  .hr_underline hr {
+    width: 97%;
+    margin-left: 1rem;
+  }
+  .faq {
+    margin-top: 3rem;
+  }
+  .accordion {
+    margin: 3rem 1rem;
+  }
+  .faq_top {
+    padding: 1rem;
+  }
+  .faq_heading {
+    font-size: 26px;
+  }
+  .feedback_message {
+    transform: translate(60%, 30%);
+    padding: 1.2rem;
+    width: 60%;
+    img {
+      height: 3.5vh;
+    }
+    .message_top {
+      font-size: 14px;
+      line-height: 15px;
+    }
+    .message_middle {
+      font-size: 11px;
+      padding-top: 0.3rem;
+      line-height: 14px;
+    }
+    .messager_name {
+      font-size: 11px;
+    }
+    hr {
+      width: 1rem;
+    }
+  }
+ 
+}
+
+@media screen and (max-width: 1000px) {
+  .customer_say {
+    font-size: 32px;
+    font-weight: 500;
+    margin-left: 0rem;
+  }
+  .what_our {
+    margin: 0rem 1rem;
+  }
+  .feedback_slider {
+    margin: 3rem 1rem;
+  }
+  .feedback_card,
+  .feedback_background {
+    height: 15vh;
+  }
+  .hr_underline hr {
+    width: 95%;
+    margin-left: 1rem;
+  }
+  .faq {
+    margin-top: 3rem;
+  }
+  .accordion {
+    margin: 3rem 1rem;
+  }
+  .faq_top {
+    padding: 1rem;
+  }
+  .faq_heading {
+    font-size: 26px;
+  }
+  .feedback_message {
+    transform: translate(60%, 30%);
+    padding: 1.2rem;
+    width: 60%;
+    img {
+      height: 3vh;
+    }
+    .message_top {
+      font-size: 11px;
+      line-height: 15px;
+    }
+    .message_middle {
+      font-size: 9px;
+      padding-top: 0.3rem;
+      line-height: 10px;
+    }
+    .messager_name {
+      font-size: 9px;
+    }
+    hr {
+      width: 1rem;
+    }
+  }
+ 
+}
+
+@media screen and (max-width: 850px) {
+  .customer_say {
+    font-size: 32px;
+    font-weight: 500;
+    margin-left: 0rem;
+  }
+  .what_our {
+    margin: 0rem 1rem;
+  }
+  .feedback_slider {
+    margin: 3rem 1rem;
+  }
+  .feedback_card,
+  .feedback_background {
+    height: 13vh;
+  }
+  .hr_underline hr {
+    width: 95%;
+    margin-left: 1rem;
+  }
+  .faq {
+    margin-top: 3rem;
+  }
+  .accordion {
+    margin: 3rem 1rem;
+  }
+  .faq_top {
+    padding: 1rem;
+  }
+  .faq_heading {
+    font-size: 26px;
+  }
+  .feedback_message {
+    transform: translate(60%, 30%);
+    padding: 0.9rem;
+    width: 60%;
+    img {
+      height: 2vh;
+    }
+    .message_top {
+      font-size: 11px;
+      line-height: 15px;
+    }
+    .message_middle {
+      font-size: 8px;
+      padding-top: 0.3rem;
+      line-height: 10px;
+    }
+    .messager_name {
+      font-size: 9px;
+    }
+    hr {
+      width: 1rem;
+    }
+  }
+ 
+}
+
 @media screen and (max-width: 768px) {
   .customer_say {
     font-size: 32px;

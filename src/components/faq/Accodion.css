@@ -312,12 +312,12 @@
       margin-top: 0.8rem;
     }
     .acco__txt {
-      font-size: 22px;
+      font-size: 20px;
       font-weight: 600;
     }
   }
   .faq_heading {
-    font-size: 44px;
+    font-size: 42px;
   }
   .left_faq {
     grid-column: span 1 / auto;
@@ -325,11 +325,11 @@
   .faq_paragraph {
     display: block;
     width: 70%;
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 1rem;
   }
   .title {
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 600;
   }
   .faq_grid {
@@ -412,7 +412,7 @@
     margin-bottom: 1rem;
   }
   .title {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 600;
   }
   .faq_grid {
@@ -423,7 +423,7 @@
     width: 99.7%;
   }
   .accordion {
-    margin: 3rem 1rem;
+    margin: 3rem 4rem;
   }
   .community_download {
     width: 45vw;
@@ -485,7 +485,7 @@
     margin-bottom: 1rem;
   }
   .title {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
   }
   .faq_grid {
